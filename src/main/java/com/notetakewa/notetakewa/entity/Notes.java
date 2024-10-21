@@ -1,4 +1,4 @@
-package com.notetakewa.notetakewa.note;
+package com.notetakewa.notetakewa.entity;
 
 
 import jakarta.persistence.*;

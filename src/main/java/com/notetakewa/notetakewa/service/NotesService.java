@@ -1,6 +1,8 @@
-package com.notetakewa.notetakewa.note;
+package com.notetakewa.notetakewa.service;
 
 
+import com.notetakewa.notetakewa.entity.Notes;
+import com.notetakewa.notetakewa.repository.NotesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import  java.lang.IllegalArgumentException;

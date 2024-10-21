@@ -1,5 +1,7 @@
-package com.notetakewa.notetakewa.note;
+package com.notetakewa.notetakewa.controller;
 
+import com.notetakewa.notetakewa.entity.Notes;
+import com.notetakewa.notetakewa.service.NotesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

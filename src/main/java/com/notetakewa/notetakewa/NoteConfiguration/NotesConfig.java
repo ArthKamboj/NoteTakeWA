@@ -1,6 +1,8 @@
-package com.notetakewa.notetakewa.note;
+package com.notetakewa.notetakewa.NoteConfiguration;
 
 
+import com.notetakewa.notetakewa.entity.Notes;
+import com.notetakewa.notetakewa.repository.NotesRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
