@@ -24,4 +24,14 @@ public class NotesController {
     public void registerNote(@RequestBody Notes note) {
         notesService.addNote(note);
     }
+
+    @DeleteMapping(path = "{noteId}")
+    public void deleteNote(@PathVariable("noteId") Integer id) {
+        notesService.deleteNote(id);
+    }
+
+    @PutMapping("/update/{noteId}")
+    public void updateNote(@PathVariable("noteId") Integer id, @RequestBody Notes note) {
+        notesService.updateNote(id, note);
+    }
 }
